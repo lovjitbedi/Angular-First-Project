@@ -1,0 +1,8 @@
+<h4>Assignment2</h4>
+
+<input type="text" class="form-control" [(ngModel)]= "userName">
+
+<p>Username is : {{userName}}</p>
+
+<button [disabled]='!userName' class="btn btn-primary" 
+(click)="onRefreshUserName()">Refresh User Name</button>
