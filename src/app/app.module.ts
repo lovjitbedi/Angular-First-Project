@@ -5,6 +5,7 @@ import {FormsModule} from '@angular/forms';
 import { AppComponent } from './app.component';
 import {ServerComponent} from './server/server.component';
 import {ServersComponent} from './servers/servers.component';
+import {Assignment3Component} from './assignment3/assignment3.component';
 import {WarningComponent} from './warning/warning.component'
 
 @NgModule({
@@ -12,7 +13,8 @@ import {WarningComponent} from './warning/warning.component'
     AppComponent,
     ServerComponent,
     ServersComponent,
-    WarningComponent
+    WarningComponent,
+    Assignment3Component
   ],
   imports: [
     BrowserModule,
