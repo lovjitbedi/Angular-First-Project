@@ -1,0 +1,5 @@
+<button class="btn btn-primary" (click)="onDisplayDetails()">Display Details</button>
+<p [hidden]="isHidden">Secret Password = tuna</p>
+<p *ngFor="let logClick of logClicks" 
+[ngStyle]="{backgroundColor: getColor()}"
+[ngClass]="{'online1': logClick >= 5}">{{logClick}}</p>
